@@ -1,0 +1,408 @@
+# sent_id = 1
+# text = Cine sunt ei?
+1 	Cine	-	PRON	-	-	0	root	-	-
+2	sunt	-	AUX	-	-	1	cop	-	-
+3	ei	-	PRON	-	-	1	nsubj	-	-
+4	?	-	PUNCT	-	-	1	punct	-	-
+
+# sent_id = 2
+# text = Un oras micut cu doua minarete luneca.
+1	Un	-	DET	-	-	2	det	-	-
+2 	oras	-	NOUN	-	-	7	nsubj	-	-
+3	micut	-	ADJ	-	-	2	amod	-	-
+4	cu	-	ADP	-	-	6	case	-	-
+5	doua	-	NUM	-	-	6	nummod	-	-
+6	minarete -	NOUN	-	-	2	nmod	-	-
+7	luneca	-	VERB	-	-	0	root	-	-
+8	.
+
+
+# sent_id = 3
+# text = Eram doar un baietel cu pantofi noroiosi.
+1	Eram	-	AUX	-	-	4	nsubj	-	-
+2	doar	-	ADV	-	-	4	advmod	-	-
+3	un	-	DET	-	-	4	det	-	-
+4	baietel -	NOUN	-	-	0	root	-	-
+5	cu	-	ADP	-	-	6	case	-	-
+6	pantofi -	NOUN	-	-	4	nmod	-	-
+7	noroiosi -	ADJ	-	-	6	amod	-	-
+8	.	-	PUNCT	-	-	4	punct	-	-
+
+
+# sent_id = 4
+# text = Politia rutiera din Shenzen a optat pentru pedepse neobisnuite inainte.
+1	Politia	-	NOUN	-	-	6	nsubj	-	-	
+2	rutiera -	NOUN	-	-	1	compound -	-
+3	din	-	ADP	-	-	4	case	-	-
+4	Shenzen -	PROPN 	-	-	1	nmod	-	-
+5	a	-	AUX	-	-	6	aux	-	-
+6	optat	-	VERB	-	-	0	root	-	-	
+7	pentru -	ADP	-	-	8	case	-	-
+8	pedepse -	NOUN	-	-	6	obl	-	-
+9	neobisnuite -	ADJ	-	-	8	amod	-	-
+10	inainte	-	ADV	-	-	6	advmod	-	-
+11	.	-	PUNCT	-	-	6	punct	-	-
+
+
+# sent_id = 5
+# text = Studiul vulcanilor se numeste volcanologie, uneori scris vulcanologie.
+1	Studiul	-	NOUN	-	-	4	nsubj	-	-
+2	vulcanilor -	NOUN	-	-	1	nmod	-	-
+3	se	-	PRON	-	-	4	expl:pv	-	-
+4	numeste	-	VERB	-	-	0	root	-	-
+5	volcanologie -	NOUN	-	-	4	xcomp	-	-
+6	,	-	PUNCT	-	-	8	punct	-	-
+7	uneori	-	ADV	-	-	8	avdmod	-	-
+8	scris	-	VERB	-	-	8	xcomp	-	-
+9	vulcanologie -	NOUN	-	-	8	xcomp	-	-
+10	.	-	PUNCT	-	-	4	punct	-	-
+
+
+# sent_id = 6
+# text = A fost condus putin inafara coastei mexicane din aprilie pana in iunie.
+1	A	-	AUX	-	-	3	aux	-	-
+2	fost	-	AUX	-	-	3	aux:pass	-	-
+3	condus	-	VERB	-	-	0	root	-	-
+4	putin	- 	ADV	-	-	3	advmod	-	-
+5	inafara	-	ADP	-	-	6	case	-	-
+6	coastei	-	NOUN	-	-	3	obl	-	-
+7	mexicane -	ADJ	-	-	6	amod	-	-
+8	din	-	ADP	-	-	9	case	-	-
+9	aprilie	-	PROPN	-	-	3	obl	-	-
+10	pana	-	ADP	-	-	12	case	-	-
+11	in	-	ADP	-	-	12	case	-	-
+12	iunie	-	PROPN	-	-	10	nmod	-	-
+13	.	-	PUNCT	-	-	3	punct	-	-
+
+
+# sent_id = 7
+# text = "Vocea ei chiar s-a invartit in jurul lumii," spuse Leive.
+1	"	-	PUNCT	-	-	7	punct	-	-
+2	Vocea	-	NOUN	-	-	7	nsubj	-	-
+3	ei	-	PRON	-	-	2	nmod:poss-	-
+4	chiar	-	ADV	-	-	7	advmod	-	-
+5	s-	-	PRON	-	-	7	expl:pv	-	-
+6	a	-	AUX	-	-	7	aux	-	-
+7	invartit -	VERB	-	-	0	root	-	-
+8	in 	-	ADP	-	-	10	case	-	-
+9	jurul	-	NOUN	-	-	8	fixed	-	-
+10	lumii	-	NOUN	-	-	7	obl	-	-
+11	,	-	PUNCT	-	-	13	punct	-	-
+12	"	-	PUNCT	-	-	13	punct	-	-
+13	spuse	-	VERB	-	-	7	parataxis -	-
+14	Leive	-	PROPN	-	-	13	nsubj	-	-
+15	.	-	PUNCT	-	-	7	punct	-	-
+
+
+# sent_id = 8
+# text = Un martor a comunicat politiei ca victima il atacase pe suspect in aprilie.
+1	Un	-	DET	-	-	2	det	-	-
+2	martor	-	NOUN	-	-	4	nsubj	-	-
+3	a 	-	AUX	-	-	4	aux	-	-
+4	comunicat -	VERB	-	-	0	root	-	-
+5	politiei -	NOUN	-	-	4	iobj	-	-
+6	ca	-	SCONJ	-	-	9	mark	-	-
+7	victima	-	NOUN	-	-	9	nsubj	-	-
+8	il	-	PRON	-	-	9	expl	-	-
+9	atacase	-	VERB	-	-	4	ccomp	-	-
+10	pe	-	ADP	-	-	11	case	-	-
+11	suspect -	NOUN	-	-	9	obj	-	-
+12	in	-	ADP	-	-	13	case	-	-
+13	aprilie	-	PROPN	-	-	9	obl	-	-
+14	.	-	PUNCT	-	-	4	punct	-	-
+
+# sent_id = 9
+# text = E foarte evident cand numele unei celebritati e initial destul de rar.
+1	E	-	AUX	-	-	3	cop	-	-
+2	foarte	-	ADV	-	-	3	advmod	-	-
+3	evident	-	ADV	-	-	0	rot	-	-
+4	cand	-	ADV	-	-	12	advmod	-	-
+5	numele	-	NOUN	-	-	12	nsubj	-	-
+6	unei	-	DET	-	-	7	det	-	-
+7	celebritati -	NOUN	-	-	5	nmod	-	-
+8	e	-	AUX	-	-	12	cop	-	-
+9	initial	-	ADV	-	-	12	advmod	-	-
+10	destul	-	ADV	-	-	12	advmod	-	-
+11	de	-	ADP	-	-	10	case	-	-
+12	rar	-	ADV	-	-	3	csubj	-	-
+13	.	-	PUNCT	-	-	3	punct	-	-
+
+
+# sent_id = 10
+# text = Asta nu i-a oprit pe investitori sa se ingramadeasca de la a baga banii in fonduri.
+1	Asta	-	PRON	-	-	5	nsubj	-	-
+2	nu	-	PART	-	-	5	advmod	-	-
+3	i	-	PRON	-	-	5	expl	-	-
+4	a 	-	AUX	-	-	5	aux	-	-
+5	oprit	-	VERB	-	-	0	root	-	-
+6	pe	-	ADP	-	-	7	case	-	-
+7	investitori -	NOUN	-	-	5	obj	-	-
+8	sa 	-	SCONJ	-	-	10	cc	-	-
+9	se	-	PRON	-	-	10	expl:pv	-	-
+10	ingramadeasca -	VERB	-	-	5	ccomp	-	-
+11	de 	-	ADP	-	-	14	mark	-	-
+12	la	-	ADP	-	-	11	fixed	-	-
+13	a 	-	AUX	-	-	14	aux	-	-
+14	baga	-	VERB	-	-	10	advcl	-	-
+15	banii	-	NOUN	-	-	14	obj	-	-	
+16	in	-	ADP	-	-	17	case	-	-
+17	fonduri	-	NOUN	-	-	14	obl	-	-
+18	.	-	PUNCT	-	-	5	punct	-	-
+
+
+# sent_id = 11
+# text = Aceasta discordanta dintre datele economice si retorica politica este familiara, sau ar trebui sa fie.
+1       Aceasta _       DET     _       _       10      aux     _       _
+2       discordanta     _       NOUN    _       _       10      nsubj   _       _
+3       dintre  _       ADP     _       _       4       case    _       _
+4       datele  _       NOUN    _       _       2       nmod    _       _
+5       economice       _       ADJ     _       _       4       amod    _       _
+6       si      _       CCONJ   _       _       7       cc      _       _
+7       retorica        _       NOUN    _       _       0       root    _       _
+8       politica        _       ADJ     _       _       7       amod    _       _
+9       este    _       AUX     _       _       10      cop     _       _
+10      familiara       _       NOUN    _       _       0       root    _       _
+11      ,       _       PUNCT   _       _       14      punct   _       _
+12      sau     _       CCONJ   _       _       14      cc      _       _
+13      ar      _       AUX     _       _       14      aux     _       _
+14      trebui  _       VERB    _       _       10      conj    _       _
+15      sa      _       PART    _       _       14      nsubj   _       _
+16      fie     _       AUX     _       _       14      cop     _       _
+17      .       _       PUNCT   _       _       10      punct   _       _
+
+# sent_id = 12
+# text = Studiul fezabilitatii estimeaza ca ar dura aproximativ patru minute pentru pasageri sa treaca raul Potomac cu gondola.
+1       Studiul _       NOUN    _       _       3       nsubj   _       _
+2       fezabilitatii   _       NOUN    _       _       1       nmod    _       _
+3       estimeaza       _       VERB    _       _       0       root    _       _
+4       ca      _       ADV     _       _       6       mark    _       _
+5       ar      _       AUX     _       _       6       aux     _       _
+6       dura    _       VERB    _       _       3       ccomp   _       _
+7       aproximativ     _       ADV     _       _       8       advmod  _       _
+8       patru   _       NUM     _       _       9       nummod  _       _
+9       minute  _       NOUN    _       _       6       ojb     _       _
+10      pentru  _       ADP     _       _       11      case    _       _
+11      pasageri        _       NOUN    _       _       6       obl     _       _
+12      sa      _       PART    _       _       13      mark    _       _
+13      treaca  _       VERB    _       _       6       advcl   _       _
+14      raul    _       NOUN    _       _       13      obj     _       _
+15      Potomac _       PROPN   _       _       14      nmod    _       _
+16      cu      _       ADP     _       _       17      case    _       _
+17      gondola _       NOUN    _       _       13      obl     _       _
+18      .       _       PUNCT   _       _       3       punct   _       _
+
+# sent_id = 13
+# text = Colectiona cartonase si facea schimb cu ceilalti baieti.
+1       Colectiona      _       VERB    _       _       0       root    _       _
+2       cartonase       _       NOUN    _       _       1       obj     _       _
+3       si      _       CCONJ   _       _       4       cc      _       _
+4       facea   _       VERB    _       _       1       conj    _       _
+5       schimb  _       NOUN    _       _       4       obj     _       _
+6       cu      _       ADP     _       _       8       case    _       _
+7       ceilalti        _       DET     _       _       8       det     _       _
+8       baieti  _       NOUN    _       _       4       obl     _       _
+9       .       _       PUNCT   _       _       2       punct   _       _
+
+# sent_id = 14
+# text = Infractiunea asta vine cu o pedeapsa de cinci ani in inchisoare.
+1       Infractiunea    _       NOUN    _       _       3       nsubj   _       _
+2       asta    _       DET     _       _       1       det     _       _
+3       vine    _       VERB    _       _       0       root    _       _
+4       cu      _       ADP     _       _       6       case    _       _
+5       o       _       DET     _       _       6       det     _       _
+6       pedeapsa        _       NOUN    _       _       3       obl     _       _
+7       de      _       ADP     _       _       9       case    _       _
+8       cinci   _       NUM     _       _       9       nummod  _       _
+9       ani     _       NOUN    _       _       6       nmod    _       _
+10      in      _       ADP     _       _       11      case    _       _
+11      inchisoare      _       NOUN    _       _       6       nmod    _       _
+12      .       _       PUNCT   _       _       3       punct   _       _
+
+# sent_id = 15
+# text = Vestile au ajuns la fiecare sat din provincie.
+1       Vestile _       NOUN    _       _       3       nsubj   _       _
+2       au      _       AUX     _       _       3       aux     _       _
+3       ajuns   _       VERB    _       _       0       root    _       _
+4       la      _       ADP     _       _       6       case    _       _
+5       fiecare _       DET     _       _       6       det     _       _
+6       sat     _       NOUN    _       _       3       obl     _       _
+7       din     _       ADP     _       _       8       case    _       _
+8       provincie       _       NOUN    _       _       6       nmod    _       _
+9       .       _       PUNCT   _       _       3       punct   _       _
+
+# sent_id = 16
+# text = Am gandurile astea in fundul mintii.
+1       Am      _       AUX     _       _       0       root    _       _
+2       gandurile       _       NOUN    _       _       1       obj     _       _
+3       astea   _       DET     _       _       2       det     _       _
+4       in      _       ADP     _       _       5       case    _       _
+5       fundul  _       NOUN    _       _       1       obl     _       _
+6       mintii  _       NOUN    _       _       5       nmod    _       _
+7       .       _       PUNCT   _       _       1       punct   _       _
+
+# sent_id = 17
+# text = Adam ar fi fost transportat la viata eterna.
+1       Adam    _       PROPN   _       _       5       nsubj:pass      _       _
+2       ar      _       AUX     _       _       5       aux     _       _
+3       fi      _       AUX     _       _       5       aux     _       _
+4       fost    _       AUX     _       _       5       aux:pass        _       _
+5       transportat     _       VERB    _       _       0       root    _       _
+6       la      _       ADP     _       _       7       case    _       _
+7       viata   _       NOUN    _       _       5       obl     _       _
+8       eterna  _       ADJ     _       _       7       amod    _       _
+9       .       _       PUNCT   _       _       5       punct   _       _
+
+# sent_id = 18
+# text = Carcasele putrezisera si trebuisera sa fie inlocuite.
+1       Carcasele       _       NOUN    _       _       2       nsubj   _       _
+2       putrezisera     _       VERB    _       _       0       root    _       _
+3       si      _       CCONJ   _       _       4       cc      _       _
+4       trebuisera      _       VERB    _       _       2       conj    _       _
+5       sa      _       PART    _       _       7       mark    _       _
+6       fie     _       AUX     _       _       7       aux:pass        _       _
+7       inlocuite       _       VERB    _       _       4       ccomp   _       _
+8       PUNCT   _       .       _       _       2       punct   _       _
+
+# sent_id = 19
+# text = Era nervoasa ca pustoaica asta a indraznit sa o faca de ras in fata clasei.
+1       Era     _       AUX     _       _       2       cop     _       _
+2       nervoasa        _       NOUN    _       _       0       root    _       _
+3       ca      _       SCONJ   _       _       7       cc      _       _
+4       pustoaica       _       NOUN    _       _       7       nsubj   _       _
+5       asta    _       DET     _       _       4       det     _       _
+6       a       _       AUX     _       _       7       aux     _       _
+7       indraznit       _       VERB    _       _       2       acl     _       _
+8       sa      _       PART    _       _       10      mark    _       _
+9       o       _       PRON    _       _       10      obj     _       _
+10      faca    _       VERB    _       _       7       ccomp   _       _
+11      de      _       ADP     _       _       12      case    _       _
+12      ras     _       NOUN    _       _       10      obl     _       _
+13      in      _       ADP     _       _       12      case    _       _
+14      fata    _       NOUN    _       _       15      nmod    _       _
+15      clasei  _       NOUN    _       _       10      obl     _       _
+16      .       _       PUNCT   _       _       2       punct   _       _
+
+# sent_id = 20
+# text = Victoria pe care a obtinut-o in colegiul electoral a atras atentia de la ingustimea unei victorii bazate doar pe 43% din votul popular.
+1       Victoria        _       NOUN    _       _       11      nsubj   _       _
+2       pe      _       ADP     _       _       3       case    _       _
+3       care    _       PRON    _       _       5       obj     _       _
+4       a       _       AUX     _       _       5       aux     _       _
+5       obtinut _       VERB    _       _       1       acl     _       _
+6       -o      _       PRON    _       _       5       expl    _       _
+7       in      _       ADP     _       _       8       case    _       _
+8       colegiul        _       NOUN    _       _       5       obl     _       _
+9       electoral       _       ADJ     _       _       8       amod    _       _
+10      a       _       AUX     _       _       11      aux     _       _
+11      atras   _       VERB    _       _       0       root    _       _
+12      atentia _       NOUN    _       _       11      obj     _       _
+13      de      _       ADP     _       _       15      case    _       _
+14      la      _       ADP     _       _       13      fixed   _       _
+15      ingustimea      _       NOUN    _       _       12      nmod    _       _
+16      unei    _       DET     _       _       17      det     _       _
+17      victorii        _       NOUN    _       _       15      nmod    _       _
+18      bazate  _       VERB    _       _       17      acl     _       _
+19      doar    _       ADV     _       _       21      advmod  _       _
+20      pe      _       ADP     _       _       21      case    _       _
+21      43%     _       NUM     _       _       18      nummod  _       _
+22      din     _       ADP     _       _       23      case    _       _
+23      votul   _       NOUN    _       _       21      nmod    _       _
+24      popular _       ADJ     _       _       23      amod    _       _
+25      .       _       PUNCT   _       _       11      punct   _       _
+
+# sent_id = 21
+# text = Trupele americane cara acum atropina si autoinjectori in trusele de prim ajutor, pentru folosirea in cazul otravirii cu agent nervos organofosfat.
+1       Trupele _       NOUN    _       _       3       nsubj   _       _
+2       americane       _       ADJ     _       _       1       amod    _       _
+3       cara    _       VERB    _       _       0       root    _       _
+4       acum    _       ADV     _       _       3       advmod  _       _
+5       atropina        _       NOUN    _       _       3       obj     _       _
+6       si      _       CCONJ   _       _       7       cc      _       _
+7       autoinjectori   _       NOUN    _       _       5       conj    _       _
+8       in      _       ADP     _       _       9       case    _       _
+9       trusele _       NOUN    _       _       3       obl     _       _
+10      de      _       ADP     _       _       12      case    _       _
+11      prim    _       NUM     _       _       12      nummod  _       _
+12      ajutor  _       NOUN    _       _       9       nmod    _       _
+13      ,       _       PUNCT   _       _       15      punct   _       _
+14      pentru  _       ADP     _       _       15      case    _       _
+15      folosirea       _       NOUN    _       _       3       obl     _       _
+16      in      _       ADP     _       _       17      case    _       _
+17      cazul   _       NOUN    _       _       15      nmod    _       _
+18      otravirii       _       NOUN    _       _       17      nmod    _       _
+19      cu      _       ADP     _       _       20      case    _       _
+20      agent   _       NOUN    _       _       18      nmod    _       _
+21      nervos  _       ADJ     _       _       20      amod    _       _
+22      organofosfat    _       ADJ     _       _       20      amod    _       _
+23      .       _       PUNCT   _       _       3       punct   _       _
+
+# sent_id = 22
+# text = Pe termen lung ar putea sa obtina cu mestesug ceea ce nu poate cu forta si violenta pe termen scurt.
+1       Pe      _       ADP     _       _       2       case    _       _
+2       termen  _       NOUN    _       _       5       obl     _       _
+3       lung    _       ADJ     _       _       2       fixed   _       _
+4       ar      _       AUX     _       _       5       aux     _       _
+5       putea   _       VERB    _       _       0       root    _       _
+6       sa      _       SCONJ   _       _       7       cc      _       _
+7       obtina  _       VERB    _       _       5       ccomp   _       _
+8       cu      _       ADP     _       _       9       case    _       _
+9       mestesug        _       NOUN    _       _       7       obl     _       _
+10      ceea    _       PRON    _       _       13      nsubj   _       _
+11      ce      _       PRON    _       _       10      fixed   _       _
+12      nu      _       PART    _       _       13      advmod  _       _
+13      poate   _       VERB    _       _       7       ccomp   _       _
+14      cu      _       ADP     _       _       15      case    _       _
+15      forta   _       NOUN    _       _       13      obl     _       _
+16      si      _       CCONJ   _       _       17      cc      _       _
+17      violenta        _       NOUN    _       _       15      conj    _       _
+18      pe      _       ADP     _       _       19      case    _       _
+19      termen  _       NOUN    _       _       13      obl     _       _
+20      scurt   _       ADJ     _       _       19      amod    _       _
+21      .       _       PUNCT   _       _       5       punct   _       _
+
+# sent_id = 23
+# text = S-a spus ca doar o societate ierarhicala cu o clasa de agrement la varf poate produce opere de arta.
+1       S-      _       PRON    _       _       3       expl:pass       _       _
+2       a       _       AUX     _       _       3       aux     _       _
+3       spus    _       VERB    _       _       0       root    _       _
+4       ca      _       SCONJ     _       _       16      cc    _       _
+5       doar    _       ADV     _       _       7       advmod  _       _
+6       o       _       DET     _       _       7       det     _       _
+7       societate       _       NOUN    _       _       16      nsubj   _       _
+8       ierarhicala     _       ADJ     _       _       7       amod    _       _
+9       cu      _       ADP     _       _       11      case    _       _
+10      o       _       DET     _       _       11      det     _       _
+11      clasa   _       NOUN    _       _       7       nmod    _       _
+12      de      _       ADP     _       _       13      case    _       _
+13      agrement        _       NOUN    _       _       11      nmod    _       _
+14      la      _       ADP     _       _       15      case    _       _
+15      varf    _       NOUN    _       _       11      nmod    _       _
+16      poate   _       VERB    _       _       3       csubj:pass      _       _
+17      produce _       VERB    _       _       16      ccomp   _       _
+18      opere   _       NOUN    _       _       17      obj     _       _
+19      de      _       ADP     _       _       20      case    _       _
+20      arta    _       NOUN    _       _       18      nmod    _       _
+21      .       _       PUNCT   _       _       3       punct   _       _
+
+# sent_id = 24
+# text = Explicatia lui ingenioasa ca nu ar fi ars biserica daca nu ar fi crezut ca episcopul era in ea.
+1       Explicatia      _       NOUN    _       _       3       nsubj   _       _
+2       lui     _       DET     _       _       1       det     _       _
+3       ingenioasa      _       ADJ     _       _       0       root    _       _
+4       ca      _       SCONJ     _       _       8       cc  _       _
+5       nu      _       PART    _       _       8       advmod  _       _
+6       ar      _       AUX     _       _       8       aux     _       _
+7       fi      _       AUX     _       _       8       aux     _       _
+8       ars     _       VERB    _       _       3       advcl   _       _
+9       biserica        _       NOUN    _       _       8       obj     _       _
+10      daca    _       SCONJ   _       _       14      mark    _       _
+11      nu      _       PART    _       _       14      advmod  _       _
+12      ar      _       AUX     _       _       14      aux     _       _
+13      fi      _       AUX     _       _       14      aux     _       _
+14      crezut  _       VERB    _       _       8       advcl   _       _
+15      ca      _       ADV     _       _       17      mark    _       _
+16      episcopul       _       NOUN    _       _       17      nsubj   _       _
+17      era     _       VERB    _       _       14      ccomp   _       _
+18      in      _       ADP     _       _       19      case    _       _
+19      ea      _       PRON    _       _       17      obl     _       _
+20      .       _       PUNCT   _       _       3       punct   _       _
